@@ -1,0 +1,68 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+    
+.header{
+    background: linear-gradient(to bottom, transparent, white),url(../images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+#header-content {
+    padding: 1em;
+}
+
+h1, h2, h3 {
+    color: #4c555c;
+}
+
+p {
+    color: #9fa5a5;
+}
+
+.btn-cy{
+    font: inherit;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    border: 0;
+    border-radius: 3em;
+    padding: 1rem 2rem;
+    box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
+}
+
+.btn-bl{
+    font: inherit;
+    background-color:  hsl(233, 100%, 69%);
+    color: #fff;
+    border: 0;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
+}
+
+.strong-cyan {
+    color: hsl(171, 66%, 44%);
+}
+
+.light-blue{
+    color: hsl(233, 100%, 69%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
