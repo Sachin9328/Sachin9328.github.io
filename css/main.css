@@ -1,38 +1,10 @@
+/* GENERAL ELEMENTS */
+
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.row {
-    margin-bottom: 5%;   
-}
-
-.equalcols {
-    display: flex;
-}
-
-.equalcols > * {
-    flex-basis: 100%;
-}
-
-.header{
-    background: linear-gradient(to bottom, transparent, white),url(../images/bg-header-desktop.png);
-    background-size: cover;
-}
-
-.rowheader {
-    padding-bottom: 2.05em;
-}
-
-#header-content {
-    padding: 1em;
 }
 
 h1, h2, h3 {
@@ -63,13 +35,41 @@ p {
     box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
 }
 
-.strong-cyan {
-    color: hsl(171, 66%, 44%);
+/* HEADER */
+
+.header{
+    background: linear-gradient(to bottom, transparent, white),url(../images/bg-header-desktop.png);
+    background-size: cover;
 }
 
-.light-blue{
-    color: hsl(233, 100%, 69%);
+#header-content {
+    padding: 1em;
 }
+
+/* LAYOUT */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-bottom: 5%;   
+}
+
+.equalcols {
+    display: flex;
+}
+
+.equalcols > * {
+    flex-basis: 100%;
+}
+
+.rowheader {
+    padding-bottom: 2.05em;
+}
+
+/* FOOTER */
 
 .attribution { 
     font-size: 11px; 
