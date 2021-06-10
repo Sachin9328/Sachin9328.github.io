@@ -11,17 +11,24 @@ body {
 }
 
 .row {
-    margin-bottom: 5%;
+    margin-bottom: 5%;   
 }
 
-.column {
-    flex: 50%;
-    flex-direction: column;
-  }
+.equalcols {
+    display: flex;
+}
+
+.equalcols > * {
+    flex-basis: 100%;
+}
 
 .header{
     background: linear-gradient(to bottom, transparent, white),url(../images/bg-header-desktop.png);
     background-size: cover;
+}
+
+.rowheader {
+    padding-bottom: 2.05em;
 }
 
 #header-content {
@@ -75,6 +82,8 @@ p {
 
 footer {
     background-color: #f5f6f8;
+    height: 5em;
+    padding: 1.8em;
 }
 
 
