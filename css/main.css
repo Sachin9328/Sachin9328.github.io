@@ -7,14 +7,18 @@ body {
     text-align: center;
 }
 
+.flex-container {
+    width: 100%;
+}
+
 h1, h2, h3 {
     color: #4c555c;
-    padding: 0 23% 0;
+    
 }
 
 p {
     color: #9fa5a5;
-    padding: 0 33% 0;
+    
 }
 
 .btn-cy{
@@ -25,8 +29,12 @@ p {
     border-radius: 3em;
     padding: 1rem 2rem;
     margin-right: 0.45rem;
+    -moz-box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
-    border-bottom: 0.16em solid hsl(171, 88%, 25%);
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
 }
 
 .btn-bl{
@@ -37,8 +45,12 @@ p {
     border-radius: 3rem;
     padding: 1rem 2rem;
     margin-left: 0.45rem;
+    -moz-box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 15px 11px -7px rgba(0, 0, 0, 0.11);
-    border-bottom: 0.16em solid hsl(233, 61%, 54%);
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
 }
 
 /* HEADER */
@@ -47,6 +59,7 @@ p {
     background: linear-gradient(to bottom, transparent, white),url(../images/bg-header-desktop.png);
     background-size: cover;
 }
+
 
 #headerlogo {
     width: 100px;
@@ -59,6 +72,26 @@ p {
 
 #header-content {
     padding: 6em 1em 1em 1em;
+}
+
+.rowheader {
+    max-width: 55%;
+    margin: auto;
+    padding: auto;
+}
+
+.rowheader > p {
+    max-width: 55%;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 2em;
+}
+
+.rowheader > h2 {
+    max-width: 55%;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 0.6em;
 }
 
 /* LAYOUT */
@@ -85,6 +118,29 @@ p {
     padding-bottom: 4em;
 }
 
+#coltwo {
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+#rowone > #coltwo > div {
+    text-align: start;    
+    padding-left: 5em;
+    width: 42%;
+}
+
+#rowone > #coltwo > div {
+    height: 21%;
+}
+
+#rowone {
+    margin-left: -40px;
+}
+
+#pc {
+    float: left;  
+    width: 101%;
+}
 
 /* FOOTER */
 
