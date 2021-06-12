@@ -12,13 +12,11 @@ body {
 }
 
 h1, h2, h3 {
-    color: #4c555c;
-    
+    color: #4c555c;   
 }
 
 p {
-    color: #9fa5a5;
-    
+    color: #9fa5a5;   
 }
 
 .btn-cy{
@@ -92,6 +90,21 @@ p {
     margin: auto;
     padding: auto;
     margin-bottom: 0.6em;
+}
+
+.rowheader > h2 {
+    font-size: 1.8vw;
+}
+
+#rowthree > .equalcols > .col {
+    max-width: 28%;
+    margin: auto;
+    padding: auto;
+}
+
+#rowthree > .equalcols {
+    max-width: 70%;
+    margin: auto 15% auto 15%;
 }
 
 /* LAYOUT */
