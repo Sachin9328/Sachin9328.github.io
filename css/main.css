@@ -155,6 +155,17 @@ p {
     width: 101%;
 }
 
+#rowfour {
+    display: flex;
+    flex-direction: row; 
+    max-width: 74%; 
+    margin: 11em 13% 11em 13%;  
+}
+
+#rowfour > div {
+    flex-basis: 100%;  
+}
+
 /* FOOTER */
 
 .attribution { 
