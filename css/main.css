@@ -1,27 +1,30 @@
 /* GENERAL ELEMENTS */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-}
-
-.flex-container {
-    width: 100%;
+    margin: 0%;
 }
 
 h1, h2, h3 {
-    color: #4c555c;   
+    color: #4c545d;   
 }
 
 p {
-    color: #9fa5a5;   
+    color: #9fabb2;   
 }
 
 .btn-cy{
     font: inherit;
-    background-color: hsl(171, 66%, 44%);
+    background-color: #26baa4;
     color: #fff;
     border: 0;
     border-radius: 3em;
@@ -35,9 +38,15 @@ p {
     box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
 }
 
+.btn-cy:hover {
+    background-color: #60cbbb;
+    color: #fff;
+    cursor: pointer;
+}
+
 .btn-bl{
     font: inherit;
-    background-color:  hsl(233, 100%, 69%);
+    background-color:  #6173ff;
     color: #fff;
     border: 0;
     border-radius: 3rem;
@@ -51,13 +60,18 @@ p {
     box-shadow: rgba(0, 0, 0, 0.1) 0px -4px inset;
 }
 
+.btn-bl:hover {
+    background-color: #8996ff;
+    color: #fff;
+    cursor: pointer;
+}
+
 /* HEADER */
 
 .header{
     background: linear-gradient(to bottom, transparent, white),url(../images/bg-header-desktop.png);
     background-size: cover;
 }
-
 
 #headerlogo {
     width: 100px;
@@ -70,41 +84,6 @@ p {
 
 #header-content {
     padding: 6em 1em 1em 1em;
-}
-
-.rowheader {
-    max-width: 55%;
-    margin: auto;
-    padding: auto;
-}
-
-.rowheader > p {
-    max-width: 55%;
-    margin: auto;
-    padding: auto;
-    padding-bottom: 2em;
-}
-
-.rowheader > h2 {
-    max-width: 55%;
-    margin: auto;
-    padding: auto;
-    margin-bottom: 0.6em;
-}
-
-.rowheader > h2 {
-    font-size: 1.8vw;
-}
-
-#rowthree > .equalcols > .col {
-    max-width: 28%;
-    margin: auto;
-    padding: auto;
-}
-
-#rowthree > .equalcols {
-    max-width: 70%;
-    margin: auto 15% auto 15%;
 }
 
 /* LAYOUT */
@@ -129,6 +108,27 @@ p {
 
 .rowheader {
     padding-bottom: 4em;
+    max-width: 55%;
+    margin: auto;
+    padding: auto;
+}
+
+.rowheader > p {
+    max-width: 55%;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 2em;
+}
+
+.rowheader > h2 {
+    max-width: 55%;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 0.6em;
+}
+
+.rowheader > h2 {
+    font-size: 1.8vw;
 }
 
 #coltwo {
@@ -155,6 +155,17 @@ p {
     width: 101%;
 }
 
+#rowthree > .equalcols > .col {
+    max-width: 28%;
+    margin: auto;
+    padding: auto;
+}
+
+#rowthree > .equalcols {
+    max-width: 70%;
+    margin: auto 15% auto 15%;
+}
+
 #rowfour {
     display: flex;
     flex-direction: row; 
@@ -168,19 +179,54 @@ p {
 
 /* FOOTER */
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f5f6f8;
+    padding: 2.2em;
+}
+
+footer > div {
+    flex: 1 1 33.3%;
+}
+
+#footerlogo {
+    width: 50px;
+    height: 50px;
+}
+
+#footerlinks > .col > a {
+    text-decoration: none;
+    color: #4c545d;
+    display: block;
+    padding-bottom: 1.4em;
+    text-align: left;
+}
+
+#footerlinks > .col > a:hover {
+    color: #26baa4;
+}
+
+#footericons > i {
+    padding: 0.8em;
+    font-size: 1.5em;
+    color: #4c545d;
+}
+
+#footericons > i:hover {
+    color: #26baa4;
+    cursor: pointer;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #3e52a3; 
 }
 
-footer {
-    background-color: #f5f6f8;
-    height: 5em;
-    padding: 1.8em;
-}
 
 
