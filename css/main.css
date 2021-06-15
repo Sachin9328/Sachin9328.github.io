@@ -228,5 +228,80 @@ footer > div {
     color: #3e52a3; 
 }
 
+@media (min-width: 375px) and (max-width: 768px) {
 
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    p {
+        font-size: 26.3px;
+    }
+
+    #header-content {
+        padding: 6em 0 0 0;
+    }
+
+    .rowheader > h1 {
+        font-size: 53px;
+        max-width: 85%;
+        margin: auto;
+        padding: 1.3em 0 0.6em 0;
+    }
+
+    .rowheader > h2 {
+        font-size: 43px;
+        max-width: 85%;
+        margin: auto;
+        padding: 1.3em 0 0.6em 0;
+    }
+
+    .rowheader > p {
+        max-width: 85%;
+    }
+
+    #tablet-image {
+        width: 100%;
+    }
+
+    #rowfour {
+        display: flex;
+        flex-direction: column; 
+        max-width: 100%; 
+        margin: 0 0 0 0;
+    }
+
+    .btn-cy {
+        margin-right: 0;
+        display: block;
+        width: 90%;
+        margin: auto;
+        font-size: 33px;
+        margin-bottom: 1.1em;
+    }
+
+    .btn-bl {
+        margin-left: 0;
+        display: block;
+        width: 90%;
+        margin: auto;
+        font-size: 33px;
+    }
+
+    #rowone {
+        margin-left: 0;
+    }
+    
+    .rowheader {
+        max-width: 100%;
+    }
+
+    .equalcols {
+        display: flex;
+        flex-direction: row;
+        flex: 1 0 100%;
+    }
+}
 
