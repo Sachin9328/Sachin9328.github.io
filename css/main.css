@@ -236,12 +236,13 @@ footer > div {
         box-sizing: border-box;
     }
 
-    p {
-        font-size: 26.3px;
+    h3 {
+        font-size: 2.22em;
+        margin-top: 2.22em;
     }
 
-    #header-content {
-        padding: 6em 0 0 0;
+    p {
+        font-size: 26.3px;
     }
 
     .rowheader > h1 {
@@ -262,15 +263,8 @@ footer > div {
         max-width: 85%;
     }
 
-    #tablet-image {
-        width: 100%;
-    }
-
-    #rowfour {
-        display: flex;
-        flex-direction: column; 
-        max-width: 100%; 
-        margin: 0 0 0 0;
+    #header-content {
+        padding: 6em 0 0 0;
     }
 
     .btn-cy {
@@ -290,18 +284,70 @@ footer > div {
         font-size: 33px;
     }
 
-    #rowone {
-        margin-left: 0;
+    .row {
+        margin-top: 6em;
     }
-    
+
     .rowheader {
         max-width: 100%;
     }
 
+    #pc {
+        float: none;  
+        max-width: 85%;;
+    }
+
+    #rowone {
+        margin-left: 0;
+    }
+
     .equalcols {
+        display:initial
+    }
+
+    #colone {
         display: flex;
         flex-direction: row;
-        flex: 1 0 100%;
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    
+    #coltwo {
+        padding-top: 0;
+        padding-left: 0;
+        max-width: 85%;
+        margin: auto;
+    }
+
+    #rowone > #coltwo > div {
+        height: auto;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #tablet-image {
+        width: 100%;
+    }
+
+    #rowfour {
+        display: flex;
+        flex-direction: column; 
+        max-width: 100%; 
+        margin: 0 0 0 0;
+    }
+
+    #rowthree > .rowheader {
+        padding-bottom: 0.44em;
+    }
+
+    #rowthree > .equalcols > .col {
+        max-width: 85%;
+        margin-top: 4.5em;
+    }
+
+    #rowthree > .equalcols > .col > h3 {
+        margin-top: 0.7em;
     }
 }
 
