@@ -361,5 +361,44 @@ footer > div {
         margin-bottom: 2.55em;
     }
 
+    footer {
+        display: grid;
+        max-width: 100%;  
+    }
+
+    footer > div {
+        margin: auto auto 4em auto;
+        justify-items: center;
+        text-align: center;
+    }
+
+    #footerlogo {
+        width: 75px;
+        height: 75px;
+    }
+
+    #footerlogodiv {
+        padding-top: 3.75em;
+    }
+
+    footer > .equalcols {
+        padding-top: 1.5em;
+    }
+
+    #footerlinks > .col > a {
+        text-align: center;
+        font-size: 33px;
+    }
+
+    #footerlinks {
+        margin-bottom: 2em;
+    }
+
+    #footericons > i {
+        
+        font-size: 2.5em;
+        
+    }
+
 }
 
