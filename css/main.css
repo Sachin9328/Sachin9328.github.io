@@ -302,7 +302,7 @@ footer > div {
     }
 
     .equalcols {
-        display:initial
+        display:initial;
     }
 
     #colone {
@@ -394,10 +394,8 @@ footer > div {
         margin-bottom: 2em;
     }
 
-    #footericons > i {
-        
+    #footericons > i {        
         font-size: 2.5em;
-        
     }
 
 }
